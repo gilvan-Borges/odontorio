@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>OdontoRio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title fs-5" id="exampleModalLabel">Área do Cliente</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+
+            <div class="form-floating my-3">
+                <input type="text" id="login" class="form-control " placeholder="" required>
+                <label for="login">Digite seu login </label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="password" id="senha" class="form-control " placeholder="" required>
+                <label for="senha">Digite sau Senha </label>
+            </div>
+
+            <button class=" btn btn-site">Acessar Sistema</button>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+            <p>Não tem cadastro? <a href="#">Faça seu cadastro aqui</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
+        
+        <div class="container">
+
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav column-gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quem Somos</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nossos Serviços
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fale Conosco</a>
+                    </li>
+
+                </ul>
+                <button class="btn btn-site ms-lg-5 " data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container hero-section">
+
+        <div class="row align-items-center flex-wrap-reverse row-gap-4">
+            <div class="col-md-6">
+                <span class="text-brand border rounded-5 py-2 px-4 d-inline-block border-brand m-3">Especialista em clareamentos</span>
+
+                <h1>Seu <span class="text-brand">sorriso</span> é a nossa motivação!</h1>
+                <p class="fs-5 my-4">Cuidamos do seu sorriso com excelência e garantimos tratamentos odontológicos de alta qualidade.</p>
+                <a href="#"  class="btn btn-site">Agende uma consulta</a>
+                <p class="mt-3">Responsável <span class="text-brand">Dra. Amanda Carvalho</span></p>
+            </div>
+            <div class="col-md-5 offset-md-1 text-center">
+                <img src="img/image-hero.png" alt="" class="img-fluid">
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="container apresentacao">
+
+        <div class="row align-items-center row-gap-4">
+            <div class="col-md-6">
+                <img src="img/image-apresentacao.jpg" alt="" class="img-fluid rounded-2">
+            </div>
+            <div class="col-md-6">
+                <h2>Tecnologia de ponta a serviço do seu sorriso</h2>
+                <p class="my-4">Utilizamos as mais avançadas tecnologias odontológicas para garantir tratamentos precisos e eficazes. Desde diagnósticos digitais até equipamentos de última geração.</p>
+                <p>Estamos comprometidos em oferecer o melhor cuidado para o seu sorriso. Venha experimentar a diferença que a inovação pode fazer na sua saúde bucal.</p>
+                <a href="Conheça nossas instalações" class=" btn btn-site mt-4">Conheça nossas instalações</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container servicos">
+        
+        <div class="row justify-content-center">
+        
+            <div class="col-8 text-center">
+                <h2>Nossos Serviços</h2>
+                <p>De cuidados preventivos a  avançadas, nossa equipe está pronta para atender todas as suas necessidades odontológicas. Escolha seu serviço abaixo .</p>
+            </div>
+
+        </div>
+
+        <div class="row row-gap-4">
+
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Check-up Odontológico</h3>
+                    <p class="m-0">Exames de rotina e avaliações gerais da saúde bucal.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Clareamento Dental</h3>
+                    <p class="m-0">Procedimentos para branqueamento dos dentes, realçando o sorriso.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Ortodontia</h3>
+                    <p class="m-0">Correção do alinhamento dos dentes e mordida com aparelhos fixos e móveis.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Implantes Dentáriosl</h3>
+                    <p class="m-0">Substituição de dentes perdidos com implantes de titânio.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Próteses Dentárias</h3>
+                    <p class="m-0">Confeccionamento de próteses parciais e totais para reposição de dentes.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-md-4 ">
+                <div class="card-site shadow d-flex flex-column justify-content-center text-center px-4 ">
+                    <h3 class="fs-5 text-brand">Tratamento de Canal</h3>
+                    <p class="m-0">Tratamento endodôntico para salvar dentes com infecção ou danos na raiz.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="agende bg-gradient  position-relative py-5">
+
+        <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-xl-3 d-none d-xl-block" >
+                        <img src="img/image-agende.png" alt="" class="position-absolute bottom-0">
+                    </div>
+                    
+                    <div class="col-xl-9">
+
+                        <h2 class="text-white">Agende agora mesmo sua consulta</h2>
+                        <p class="text-white">Não perca tempo! Agende sua consulta e comece a cuidar do seu sorriso hoje mesmo. Nossa equipe está pronta para receber você com atenção e dedicação.</p>
+                        <a href="#" class="btn btn-outline-light" >Quero fazer uma avaliação</a>
+
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+   <div class="container depoimentos">
+
+    <div id="carouselExample" class="carousel slide text-center">
+
+        <div class="carousel-inner px-5">
+
+          <section class="carousel-item active ">
+            <h2>O que nossos pacientes dizem</h2>
+            <p class="fs-5 fst-italic">"Minha experiência na clínica foi excepcional. Desde o atendimento inicial até o final do tratamento, a equipe foi extremamente profissional e atenciosa. Meu clareamento dental  superou minhas expectativas e o resultado ficou maravilhoso! </p>
+            <p class="text-brand">Claudio Silva</p>
+          </section>
+
+          <section class="carousel-item ">
+            <h2>O que nossos pacientes dizem</h2>
+            <p class="fs-5 fst-italic">"Minha experiência na clínica foi excepcional. Desde o atendimento inicial até o final do tratamento, a equipe foi extremamente profissional e atenciosa. Meu clareamento dental  superou minhas expectativas e o resultado ficou maravilhoso! </p>
+            <p class="text-brand">Claudio Silva</p>
+          </section>
+
+          <section class="carousel-item ">
+            <h2>O que nossos pacientes dizem</h2>
+            <p class="fs-5 fst-italic">"Minha experiência na clínica foi excepcional. Desde o atendimento inicial até o final do tratamento, a equipe foi extremamente profissional e atenciosa. Meu clareamento dental  superou minhas expectativas e o resultado ficou maravilhoso! </p>
+            <p class="text-brand">Claudio Silva</p>
+          </section>
+       
+        </div>
+        <button class="carousel-control-prev justify-content-start " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+   </div>
+
+   <section class="container contato">
+
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 >A melhor clínica odontológica do Rio</h2>
+
+               <div class="mt-4">
+                    <h3 class="fs-5 text-brand">Endereço</h3>
+                    <p>Av. Rio Branco, 185 - Sala 308 - Centro - Rio de Janeiro</p>
+               </div>
+
+               <div class="mt-4">
+                    <h3 class="fs-5 text-brand">Horário de atendimento</h3>
+                    <ul>
+                        <li>Seg a Sex: 9:00 às 17:00 </li>
+                        <li>Sáb: 9:00 às 12:00 </li>
+                    </ul>
+               </div>
+
+               <div class="mt-4">
+                    <h3 class="fs-5 text-brand">Ligue pra gente</h3>
+                    <ul>
+                        <li>(21) 2266-1234</li>
+                        <li>(21) 99897-4321</li>
+                    </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-6">
+                <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1568042302083!2d-43.1790218254484!3d-22.90758653789814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6065e8d8a1%3A0x2f25c55275b328a9!2sCoti%20Inform%C3%A1tica!5e0!3m2!1spt-BR!2sbr!4v1723310839665!5m2!1spt-BR!2sbr" width="558" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+   </section>
+
+   <footer class="bg-gradient py-4 ">
+
+    <div class="container">
+
+        <div class="row justify-content-between align-items-center text-center text-md-start row-gap-3">
+
+            <div class="col-md-5">
+                <p class="text-white m-0">OdontoRio, cuidando do seu sorriso há mais de 10 anos</p>
+            </div>
+
+            <div class="col-md-2 d-flex justify-content-center justify-content-md-end column-gap-3">
+
+                    <a href="#"><img src="img/whatsapp.svg" alt="icone whatsapp"></a>                  
+                    <a href="#"> <img src="img/instagram.svg" alt="icone instagram"></a>
+                    <a href="#"><img src="img/twitter.svg" alt="icone twitter"></a>
+
+            </div>
+
+        </div>
+    </div>
+
+   </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
