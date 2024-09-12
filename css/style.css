@@ -3,6 +3,15 @@
     --brand-dark : #028176;
 }
 
+.valid{
+    border: solid 1px green;
+}
+
+label.error{
+    color: red;
+    font-size: 12px;
+}
+
 *{
     font-family: "Poppins", sans-serif;;
 }
@@ -39,6 +48,11 @@ p, ul{
 .border-brand{
     border-color: var(--brand) !important;
 }
+
+.especialista{
+    border: solid 1px red;
+}
+
 
 .hero-section, .servicos, .depoimentos{
     padding-top: 100px;
